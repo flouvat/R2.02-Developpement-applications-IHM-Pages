@@ -22,7 +22,7 @@ title: R2.02 Développement d'applications avec IHM
 email: frederic.flouvat@univ-amu.fr
 description: >- # this means to ignore newlines until "baseurl:"
   cours du BUT1 informatique, IUT Aix-en-Provence, Aix-Marseille Université
-baseurl: "/R2.02-Developpement-applications-IHM" # the subpath of your site, e.g. /blog
+baseurl: "/R2.02-Developpement-applications-IHM-Pages" # the subpath of your site, e.g. /blog
 url: "https://flouvat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  flouvat
