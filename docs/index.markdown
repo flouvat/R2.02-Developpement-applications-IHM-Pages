@@ -8,7 +8,7 @@ layout: home
 **Intervenants**:
 - F. Flouvat (frederic.flouvat@univ-amu.fr), responsable de la ressource
 - S. Nabitz (sophie.nabitz@univ-avignon.fr)
-- B. Boukenze (basma.boukenze@univ-amu.fr)
+- A. Juven (alexis.juven@univ-amu.fr)
 
 **Objectifs** : Initier au développement d'une application avec une IHM en faisant une introduction à la programmation évènementielle, l'utilisation de composants graphiques, la séparation vue-modèle, la liaison de données (databinding), une sensibilisation à l'ergonomie et la mise en place d'une persistance des données. Ce cours sera basée sur des technologies Java, et plus particulièrement la librairie JavaFX.
 
