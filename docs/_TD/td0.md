@@ -10,8 +10,9 @@ mathjax: true
 Dans ces TD, nous allons utiliser IntelliJ IDEA. Cet environnement de développement intégré (EDI) est installé sur le VDI d'AMU, notamment dans la VM "Lunix (Linux pour tous)". Pour information, la société JetBrains commercialisant ce logiciel propose des licences gratuites pour les étudiants. Vous pouvez donc aussi l'installer sur vos machines personnelles. Pour cela, il suffit de remplir [ce formulaire](https://www.jetbrains.com/shop/eform/students). Par ailleurs, nous utiliserons aussi [Maven](https://fr.wikipedia.org/wiki/Apache_Maven) comme système de build pour les projets JavaFX (il est intégré à IntelliJ IDEA). 
 
 
+## 0.1 - Application Hello World
 
-Dans un premier temps, nous allons implémenter une application basique "Hello World" avec IntelliJ et JavaFX. Pour cela, vous suivrez le tutoriel prévu à cet effet dans la documentation de IntelliJ. La procédure peut varier sensiblement en fonction de la version de IntelliJ. Pour la dernière version, vous pouvez vous référer à [cette page](https://www.jetbrains.com/help/idea/2022.2/javafx.html). Pour la version installée sur les machines de l'IUT (version 2022.2 sous Linux), vous devez vous référez à [cette page](https://www.jetbrains.com/help/idea/2022.2/javafx.html).
+Dans un premier temps, nous allons implémenter une application basique "Hello World" avec IntelliJ et JavaFX, **en local** sur votre machine de l'IUT. Pour cela, vous suivrez le tutoriel prévu à cet effet dans la documentation de IntelliJ. La procédure peut varier sensiblement en fonction de la version de IntelliJ. Pour la dernière version, vous pouvez vous référer à [cette page](https://www.jetbrains.com/help/idea/javafx.html). Pour la version installée sur les machines de l'IUT (version 2024.3 sous Linux), vous devez vous référez à [cette page](https://www.jetbrains.com/help/idea/2024.3/javafx.html).
 
 A la fin du tutoriel, nous obtenons le projet et l'application suivante:
 
@@ -33,27 +34,31 @@ Le répertoire **src/main/resources** contiendra l'ensemble de ressources du pro
 
 Le répertoire **src/main/test** contiendra l'intégralité des tests de votre application. Notez que pour le moment, vous n'allez pas écrire des tests unitaires pour tester vos IHM, donc le répertoire **src/main/test** n'apparaîtra pas pour le moment dans vos projets. Au moment où vous voudrez ajouter des tests unitaires, vous aurez éventuellement à créer ce répertoire.
 
-Nous allons maintenant relier ce projet IntelliJ avec notre compte GitHub afin de pouvoir le versionner. Pour cela, il faut aller dans le menu principal d'IntelliJ, sélectionner ``VCS``, puis cliquer sur ``Share Project on GitHub``.
 
-![](img/shareGithub0.png)
+## 0.2 - Connexion au dépôt distant GitHub Classroom avec le squelette des exercices
 
-Dans la fenêtre qui s'ouvre, vous devez ensuite sélectionner `Add account`` pour relier votre compte GitHub. 
+Il faut maintenant aller sur Ametice, aller dans la section "les liens classroom pour les TP", et cliquer sur le lien de votre groupe. Un dépôt GitHub va alors être automatiquement créé avec le code de base à compléter pour les exercices. 
 
-![](img/shareGithub1.png)
+Nous allons maintenant relier IntelliJ avec notre compte GitHub afin de pouvoir  versionner le code ajouté dans la suite des TP. Pour cela, il faut ouvrir IntelliJ et sélectionner ``Clone Repository``.
 
-Une fenêtre du navigateur s'ouvre alors sur le site GitHub. Il faut saisir les informations sur son compte et valider. Un code de connexion est alors envoyé à votre boîte mail. Vous devez le copier dans l'espace prévu dans la fenêtre du navigateur. Un message vous demande d'autoriser l'IDE de JetBrains à se connecter au compte GithHub. Un fois que cela est fait, IntelliJ est relié à votre compte GitHub et vous pouvez partager votre projet (bouton ``Share``). 
+![](img/cloneGithub0.png)
 
-Il suffit ensuite de faire votre première indexation des fichiers à ajouter au dépôt ("stage"), et votre premier commit, en cliquant sur ``Add``.
+Dans la fenêtre qui s'ouvre, vous devez ensuite copier l'URL de votre dépôt GitHub créé par le lien Ametice, puis cliquer sur le bouton ``clone``. 
 
-![](img/shareGithub2.png)
+![](img/cloneGithub1.png)
 
-A partir de cet instant, un nouveau menu "Git" est ajouté à IntelliJ dans le bandeau au dessus du code. Il permet de faire les principales opérations sur les dépôts Git (*update*, *commit* et *push*).
+Une fenêtre d'IntelliJ s'ouvre alors sur les répertoires avec le code de base des différents exercices à réaliser pendant les TP. Ce projet sera à utiliser et à compléter pendant tout le cours.
 
-![](img/shareGithub3.png)
+![](img/cloneGithub2.png)
 
- Il est aussi possible d'utiliser la fenêtre de gestion Git (située en dessous du code) pour avoir plus d'options. Pour la rendre visible, il suffit de cliquer sur l'onglet ``Git`` tout en bas de la fenêtre.
+Dans la suite de ces TP, vous devrez enregistrer vos modifications au fur et à mesure, les valider (**commit**) et les envoyer sur le dépôt distant sur GitHub Classroom (**push**). Vous pouvez faire cela directement à partir du menu principal d'IntelliJ en cliquant sur le sous-menu ``Git``, qui ouvrira une fenêtre permettant de valider les modifications et de les pousser sur le dépôt distant (bouton ``Commit and Push ..``). Faites une petite modification (p.ex. ajout d'un espace dans le code), et tester de valider et pousser votre code.
 
-![](img/shareGithub4.png)
+![](img/commitPush.png)
+
+
+IntelliJ va alors vous demander de saisir les informations sur son compte GitHub. Un code d'authentification vous  est alors envoyé. Vous devez le copier dans l'espace prévu dans la fenêtre du navigateur. Un message vous demande d'autoriser l'IDE de JetBrains à se connecter au compte GithHub. Un fois que cela est fait, IntelliJ est relié à votre compte GitHub et vous pouvez versionner votre code. 
+
+
 
 Tout au long des TD/TP, vous aurez besoin de **consulter [les pages de documentation de JavaFX](https://openjfx.io/javadoc/18/)**. 
 
