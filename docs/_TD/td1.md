@@ -114,7 +114,7 @@ Nous allons supposer que nous essayons de reproduire la maquette (ou ["mock-up"]
 
 Cette interface a une ligne de contrôles en haut de sa fenêtre. Plus précisément, nous avons  un bouton "Refresh" à gauche puis un lien hypertexte "Sign Out" à droite. En dessous, on trouve un tableau de valeurs avec deux colonnes "Last Name" et "First Name". Ce tableau occupe toute la hauteur et la largeur de la fenêtre, à l'exception d'un bandeau en bas de la fenêtre. Ce bandeau est composé d'un trait de séparation et d'un bouton "Close" en dessous à droite. 
 
-L'une des premières difficultés consiste à identifier les conteneurs adéquates pour faire cette mise en page dans la `Scene` (i.e. l'espace associé à la fenêtre, de type `Stage`). Pour cela, on peut se référer à la [liste des classes disponibles dans le package `javafx.scene.layout`](https://openjfx.io/javadoc/18/javafx.graphics/javafx/scene/layout/package-summary.html) ou à d'autres sources maintenues par la communauté (p.ex. ["How to use JavaFX Layouts"](https://edencoding.com/javafx-layouts/) de E. Eden-Rump). La figure ci-dessous résume les principales mises en page (i.e. "layouts") :
+L'une des premières difficultés consiste à identifier les conteneurs adéquates pour faire cette mise en page dans la `Scene` (i.e. l'espace associé à la fenêtre, de type `Stage`). Pour cela, on peut se référer à la [liste des classes disponibles dans le package `javafx.scene.layout`](https://openjfx.io/javadoc/18/javafx.graphics/javafx/scene/layout/package-summary.html) ou à d'autres sources maintenues par la communauté (p.ex. "How to use JavaFX Layouts" de E. Eden-Rump). La figure ci-dessous résume les principales mises en page (i.e. "layouts") :
 
 ![Layout types by E. Eden-Rump](img/LayoutTypes-768x304.png)
 
