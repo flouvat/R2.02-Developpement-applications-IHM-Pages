@@ -10,7 +10,7 @@ mathjax: true
 Ce sujet est inspiré d'un examen à l'IUT d'Aix-Marseille Université en 2021. Il a été adapté par l'équipe pédagogique de l'IUT de Montpellier (petru.valicov@umontpellier.fr). 
 
 
-### Exercice 1 - Un peu d'arithmétique
+### Exercice 17 - Un peu d'arithmétique
 
 On s'intéresse à un petit programme qui permet d'afficher des problèmes arithmétiques et qui affiche combien de réponses sont justes. Voici une présentation de l'application en deux étapes.
 
@@ -54,7 +54,7 @@ qui permet de savoir quelle est la valeur actuelle de la ComboBox. Quand un item
 
 7. Dans votre version actuelle, lorsqu'un utilisateur choisit un nombre d'exercices, l'intégralité de la liste des exercices est régénérée. Modifiez le code de façon à ce qu'un maximum des exercices incorrectement répondus soit régénéré d'abord avant de générer les nouveaux (si le nombre d'exercices incorrects est supérieur au choix `n` de la `ComboBox`, on affichera les `n` premiers exercices incorrects).
 
-### Exercice 2 - Un peu de géométrie
+### Exercice 18 - Un peu de géométrie
 
 On s'intéresse à un petit programme qui permet de dessiner des rectangles et qui devra rassembler à l'image ci-dessous.
 
